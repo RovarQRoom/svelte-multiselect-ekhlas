@@ -1,4 +1,4 @@
-export type Option = string | number | ObjectOption
+export type Option = string | number | ObjectOption | { id: string, name:string, image:string }
 
 // single CSS string or an object with keys 'option' and 'selected', each a string,
 // which only apply to the dropdown list and list of selected options, respectively
