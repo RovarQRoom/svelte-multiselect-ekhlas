@@ -14,6 +14,10 @@ export default {
     },
   },
 
+  build: {
+    outDir: `dist`,
+  },
+
   server: {
     fs: { allow: [`..`] }, // needed to import from $root
     port: 3000,

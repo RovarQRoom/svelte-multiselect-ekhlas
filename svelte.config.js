@@ -43,7 +43,11 @@ export default {
   ],
 
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+      pages: 'dist',
+      assets: 'dist',
+      fallback: null,
+    }),
 
     alias: {
       $root: `.`,
